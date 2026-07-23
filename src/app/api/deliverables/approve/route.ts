@@ -1,0 +1,3 @@
+import {NextResponse} from "next/server";import {z} from "zod";
+const schema=z.object({deliverableId:z.string().min(1),unresolvedComments:z.number().int().min(0)});
+export async function POST(request:Request){try{const input=schema.parse(await request.json());if(input.unresolvedComments>0)return NextResponse.json({approved:false,error:`Resolve ${input.unresolvedComments} open comment${input.unresolvedComments===1?"":"s"} before approval.`},{status:409});return NextResponse.json({approved:true,deliverableId:input.deliverableId,approvedAt:new Date().toISOString()})}catch(e){return NextResponse.json({approved:false,error:e instanceof Error?e.message:"Invalid request"},{status:400})}}

@@ -1,0 +1,2 @@
+import {NextResponse} from "next/server";
+export function GET(){return NextResponse.json({groq:Boolean(process.env.GROQ_API_KEY),supabase:Boolean(process.env.NEXT_PUBLIC_SUPABASE_URL&&process.env.SUPABASE_SERVICE_ROLE_KEY),stripe:Boolean(process.env.STRIPE_SECRET_KEY),mode:process.env.NODE_ENV})}
