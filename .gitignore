@@ -54,3 +54,4 @@ approve*.json
 deploy-smoke*.log
 deploy-smoke*.pid
 
+.vercel
