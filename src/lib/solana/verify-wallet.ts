@@ -1,0 +1,3 @@
+import {PublicKey} from "@solana/web3.js";import nacl from "tweetnacl";import bs58 from "bs58";
+export type WalletProofInput={publicKey:string;message:string;signature:string};
+export function verifyWalletProof(input:WalletProofInput){if(!input.message.startsWith("Briefrail wallet verification\nNetwork: Solana devnet"))return false;const expires=input.message.match(/^Expires: (.+)$/m)?.[1];if(!expires||Date.parse(expires)<Date.now())return false;const key=new PublicKey(input.publicKey);return nacl.sign.detached.verify(new TextEncoder().encode(input.message),bs58.decode(input.signature),key.toBytes())}

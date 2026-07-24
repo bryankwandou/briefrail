@@ -1,0 +1,2 @@
+import {NextResponse} from "next/server";
+export function GET(){const issuedAt=new Date();const expiresAt=new Date(issuedAt.getTime()+5*60_000);const nonce=crypto.randomUUID();const message=["Briefrail wallet verification","Network: Solana devnet",`Nonce: ${nonce}`,`Issued: ${issuedAt.toISOString()}`,`Expires: ${expiresAt.toISOString()}`].join("\n");return NextResponse.json({message,expiresAt:expiresAt.toISOString(),network:"devnet"})}
