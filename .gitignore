@@ -49,3 +49,5 @@ invoice.json
 brief.json
 node_modules.incomplete
 
+approve*.json
+

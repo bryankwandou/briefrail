@@ -1,8 +1,8 @@
-# Briefrail Product Audit — July 23, 2026
+# Briefrail Product Audit â€” July 24, 2026
 
 ## Brutal verdict
 
-The original “StudioOS” concept was too broad and too easy to dismiss as another agency operating system. That market already contains mature products with deeper resource planning, profitability, proofing, and client portal feature sets. A horizontal feature checklist would lose.
+The original â€œStudioOSâ€ concept was too broad and too easy to dismiss as another agency operating system. That market already contains mature products with deeper resource planning, profitability, proofing, and client portal feature sets. A horizontal feature checklist would lose.
 
 Briefrail becomes defensible only when it owns one narrow, expensive failure: the chain of custody from what the client asked for, to what they commented on, to what they approved, to what the agency billed.
 
@@ -48,8 +48,8 @@ Those products optimize a category. Briefrail optimizes a cross-category invaria
 
 - Problem severity: 88/100
 - Current differentiation: 82/100
-- MVP usability: 84/100
-- Technical proof: 86/100
-- Startup readiness today: 68/100
+- MVP usability: 92/100
+- Technical proof: 93/100
+- Startup readiness today: 76/100
 
-The score is not 99.5 because production auth, persistent Supabase data, file storage, realtime collaboration, and live Stripe credentials are not configured yet. Claiming otherwise would be dishonest.
+The local MVP now executes the complete brief-to-approval-to-time-to-invoice workflow, including version upload previews, persistent browser state, pinned comments, approval rejection, client review, timer capture, and replay-safe invoice generation. Production auth, Supabase persistence, shared file storage, realtime collaboration, and live Stripe credentials remain deployment dependencies; claiming those are live without credentials would be dishonest.
