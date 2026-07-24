@@ -51,3 +51,6 @@ node_modules.incomplete
 
 approve*.json
 
+deploy-smoke*.log
+deploy-smoke*.pid
+
