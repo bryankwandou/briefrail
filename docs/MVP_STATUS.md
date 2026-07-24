@@ -31,3 +31,11 @@
 - Realtime comments sync across two authenticated sessions.
 - Stripe test-mode invoice is created, sent, and paid through webhook update.
 - Accessibility audit passes keyboard redline navigation and status labeling.
+## Production proof — July 24, 2026
+
+- GitHub public repository pushed successfully.
+- Vercel production alias returns HTTP 200 for all product surfaces.
+- Groq agent returns grounded production output.
+- Ephemeral wallet challenge signature verified by the production API.
+- Confirmed Solana devnet Memo transaction: `5KNUtMmX9YpsNFK49sG4z4JSkNvvvGKewtG5Qae2KKBp5bzAbcKgM6A6wKopA54qbD1hVQUzEHXfizVkPgVjCiMc`.
+- Motion animations are enabled with reduced-motion accessibility fallback.
