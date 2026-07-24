@@ -16,7 +16,7 @@ The Supabase migration in `supabase/migrations/202607230001_initial.sql` include
 - GitHub: https://github.com/bryankwandou/briefrail
 - Wallet proof console: https://briefrail.vercel.app/verify
 - Solana network: devnet
-- Production attestation: `5KNUtMmX9YpsNFK49sG4z4JSkNvvvGKewtG5Qae2KKBp5bzAbcKgM6A6wKopA54qbD1hVQUzEHXfizVkPgVjCiMc`
-- Devnet attestor: `35z7X59rtyts557Up1RAwpyYN7x2cFqcDc7RjPuNxFzr`
+- Production attestation: `3pepEL4ZBvnMd7ksA7Uyaw25K3YAynaYS2APoR4dM3EPn94Xm4sGLqhAnUuek2HdfRdkCUzFD1Jh6CU4U1TFAxrk`
+- Devnet attestor: `DSWBYzBpf9ej2oA4PTSJhh8JS5cfqkmVsGuK9PkWF3iW`
 
 The production API verifies a wallet-signed challenge before the server attestor writes the workflow digest through the Solana Memo program. Groq powers the grounded project agent and brief drafter in production.

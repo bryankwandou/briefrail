@@ -39,3 +39,11 @@
 - Ephemeral wallet challenge signature verified by the production API.
 - Confirmed Solana devnet Memo transaction: `5KNUtMmX9YpsNFK49sG4z4JSkNvvvGKewtG5Qae2KKBp5bzAbcKgM6A6wKopA54qbD1hVQUzEHXfizVkPgVjCiMc`.
 - Motion animations are enabled with reduced-motion accessibility fallback.
+## Final devnet read-back proof — July 24, 2026
+
+- New transaction: `3pepEL4ZBvnMd7ksA7Uyaw25K3YAynaYS2APoR4dM3EPn94Xm4sGLqhAnUuek2HdfRdkCUzFD1Jh6CU4U1TFAxrk`.
+- RPC receipt verification returned HTTP 200 and `verified: true`.
+- Confirmed slot: `478517981`.
+- Verified attestor: `DSWBYzBpf9ej2oA4PTSJhh8JS5cfqkmVsGuK9PkWF3iW`.
+- Memo state: `production-live|write-confirmed|readback-verified`.
+- Temporary devnet funding endpoint was removed and returns HTTP 404.
