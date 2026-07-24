@@ -11,7 +11,7 @@
 - Time-entry eligibility and server-side invoice calculation.
 - Previously invoiced entries excluded from invoice generation.
 - Optional live Stripe draft invoice creation when credentials and customer ID exist.
-- Client review portal with visible blocked approval state.
+- Client review portal with interactive comment resolution, server-enforced approval, and printable review evidence.`n- Dedicated Atlas workspace with upload preview, version history selector, persistent state, pinned comments, brief approval, live timer, and invoice generation.
 - Supabase schema with deliverables, comments, time, invoices, and integrity constraints.
 - Automated workflow tests and successful production build.
 
