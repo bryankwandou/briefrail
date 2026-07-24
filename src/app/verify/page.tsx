@@ -1,0 +1,2 @@
+import Link from "next/link";import {ArrowLeft} from "lucide-react";import {Brand} from "@/components/brand";import {WalletProof} from "@/components/wallet-proof";
+export default function VerifyPage(){return <main className="verify-page"><nav className="nav shell"><Brand/><Link className="text-link" href="/app/projects/atlas"><ArrowLeft/>Atlas workspace</Link></nav><div className="verify-shell"><WalletProof/></div></main>}
